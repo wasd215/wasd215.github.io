@@ -8,6 +8,7 @@
 
  <title>我的导航</title>
 <link rel="shortcut icon" href="./images/favicon.ico">
+<link rel="bookmark" type="image/x-icon" href="./images/favicon.ico">
 <link rel="stylesheet" href="./css/style.css" />
 <link href="./css/bootstrap.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="./css/frontstyle.css">
@@ -45,19 +46,7 @@
     <p>&nbsp;</p>
   </div>
 
-    
-
-
-  
-
-  <div class="input-group input-group-lg">
-  <span class="input-group-addon">搜索</span>
-  <form action="http://www.baidu.com/s" method="get" target="_blank" >
-  <input type="text" class="form-control" name="search" id="search" placeholder="先输入关键词，再选择相应的检索平台，默认回车为百度搜索。" baiduSug="1"  value=" " >
-</div>  
-<script charset="gbk" src="./js/opensug.js"></script>
-
-    <p><center>
+ <p><center>
     <input type="submit" value="百度" id="baidu" button type="button" class="btn btn-primary" />
     <input type="submit" value="谷歌" id="google" button type="button" class="btn btn-primary"/>
     <input type="submit" value="京东" id="jd" button type="button" class="btn btn-primary" />
@@ -71,7 +60,20 @@
     <input type="submit" value="网盘" id="quzhuanpan" button type="button" class="btn btn-primary"/>
     <input type="submit" value="化源" id="hyw" button type="button" class="btn btn-primary" />
         </center></P>   
- 
+
+
+  
+  <div class="input-group input-group-lg">
+  <span class="input-group-addon">搜索</span>
+  <form action="https://www.baidu.com/baidu" method="get" target="_blank" >
+  <input type="text" class="form-control" name="word" id="search" autofocus="autofocus" baiduSug="2" >
+</div>  
+<script charset="gbk" src="./js/baidu.js"></script>
+
+
+
+
+
 <br>
 
 		<div id="main">
@@ -319,21 +321,33 @@
     var stupian=document.getElementById("tupian");   
     var shyw=document.getElementById("hyw");
     var shyw=document.getElementById("iqiyi"); 
-//图片
 
 
-    //百度
-    sBaidu.onclick=function(){
-      sAddress.action="https://www.baidu.com/s";
-      sInfor.name="wd";
-    }
-    //Google
-    sGoogle.onclick=function(){
-      sAddress.action="http://www.google.com/search";
-      sInfor.name="q";
-    };
+
+// 百度
+
+ $('#baidu').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://www.baidu.com/baidu?wd=" + query + "", "_blank");
+        return false;
+      
+      };
+    });
 
 
+// google
+
+ $('#google').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://www.google.com/search?q=" + query + "", "_blank");
+        return false;
+      
+      };
+    });
+    
+    
 //图片
  $('#tupian').click(function() {
       var query = $('#search').val();
