@@ -1,0 +1,470 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+
+ <title>我的导航</title>
+<link rel="shortcut icon" href="./images/favicon.ico">
+<link rel="stylesheet" href="./css/style.css" />
+<link href="./css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="./css/frontstyle.css">
+<script src="./js/jquery-3.1.0.min.js"></script>
+<script src="./js/jquery-migrate-3.0.0.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<style type="text/css"></style>
+</head>
+
+
+<body>
+
+  
+
+<div class="container">
+
+
+  <div class="visible-xs">
+    <div class="row sLOGO">
+      <div class="col-xs-6 col-xs-offset-3">               
+         <a href="./index.html"></a>  
+       <br/>
+      </div>
+    </div>
+  </div>
+       
+
+					<div id="kg-btn" class="">
+						<input class='tgl tgl-flip' id='qieh' type='checkbox' />
+						<label class='tgl-btn' data-tg-off='内网' data-tg-on='外网' for='qieh'></label>
+				  </div>
+  <div class="hidden-xs">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+
+    
+
+
+  
+
+  <div class="input-group input-group-lg">
+  <span class="input-group-addon">搜索</span>
+  <form action="http://www.baidu.com/s" method="get" target="_blank" >
+  <input type="text" class="form-control" name="search" id="search" placeholder="先输入关键词，再选择相应的检索平台，默认回车为百度搜索。" baiduSug="2"  value=" " >
+</div>  
+
+    <p><center>
+    <input type="submit" value="百度" id="baidu" button type="button" class="btn btn-primary" />
+    <input type="submit" value="谷歌" id="google" button type="button" class="btn btn-primary"/>
+    <input type="submit" value="京东" id="jd" button type="button" class="btn btn-primary" />
+    <input type="submit" value="淘宝" id="taobao" button type="button" class="btn btn-primary" />
+    <input type="submit" value="1688" id="1688" button type="button" class="btn btn-primary" />
+    <input type="submit" value="地图" id="ditu" button type="button" class="btn btn-primary"/>
+    <input type="submit" value="爱奇艺" id="iqiyi" button type="button" class="btn btn-primary" />
+    <input type="submit" value="影视" id="ziyuan" button type="button" class="btn btn-primary"/>
+    <input type="submit" value="字幕" id="zimu" button type="button" class="btn btn-primary"/>
+    <input type="submit" value="图片" id="tupian" button type="button" class="btn btn-primary"/>
+    <input type="submit" value="网盘" id="quzhuanpan" button type="button" class="btn btn-primary"/>
+    <input type="submit" value="化源" id="hyw" button type="button" class="btn btn-primary" />
+        </center></P>   
+ 
+<br>
+
+		<div id="main">
+			<!-- 内网访问地址 -->
+				<div id="app" class="app animated fadeInLeft">
+	<table  class="table table-striped table-bordered table-hover active" >		
+		<thead>
+			<tr class="active center">
+         <td width="10%" align="center" id="fenlei">屋企内网</td>
+         <td width="9%" align="center"><a href="http://192.168.0.1" target="_blank"id="lianjie1">高恪路由</a></td>
+         <td width="9%" align="center"><a href="http://192.168.0.100:5000" target="_blank"id="lianjie1">家黑群晖</a></td>
+         <td width="9%" align="center"><a href="http://192.168.0.100:5000/index.cgi?launchApp=SYNO.SDS.DownloadStation.Application" target="_blank"  id="lianjie1">DiskStation</a></td>
+        <td width="9%" align="center"><a href="http://192.168.0.100:3001/" target="_blank" id="lianjie">人人影视WEB</a></td>
+        <td width="9%" align="center"><a href="http://192.168.0.100:9091/transmission/web/" target="_blank" id="lianjie">TM </a></td>
+        <td width="9%" align="center"><a href="http://192.168.0.100:9999/" target="_blank" id="lianjie">百度web</a></td>
+        <td width="9%" align="center"><a href="http://192.168.0.100:6880/#!/downloading" target="_blank" id="lianjie">AriaNg</a></td>
+        <td width="9%" align="center"><a href="http://192.168.0.100:8096/web/home.html" target="_blank" id="lianjie">Emby</a></td>
+        <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+        <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+        	<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+      <td width="10%" align="center" id="fenlei">公司内网</td>
+      <td width="9%" align="center"><a href="http://192.168.0.1:8080/ioffice/login.aspx?ReturnUrl=%2fioffice%2fDefault.aspx" target="_blank"id="lianjie">IOFFICE</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.3:88/OA/login.aspx" target="_blank"id="lianjie1">全程OA</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.252:8937/power2000/" target="_blank"id="lianjie1">龙特</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.254/wcd/top.xml" target="_blank"id="lianjie">震旦</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.4:2153/" target="_blank"id="lianjie1">爱快路由</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.115:2160/" target="_blank"id="lianjie">EastFax</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.9:5000/webman/index.cgi" target="_blank"id="lianjie">公司黑群晖</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.250/Magicshow/login.aspx" target="_blank" id="lianjie">震旦系統</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.179/doc/page/login.asp" target="_blank" id="lianjie">旧监控</a></td>
+       <td width="9%" align="center"><a href="http://192.168.0.125/" target="_blank" id="lianjie">新监控</a></td>
+      </tr>
+		</thead>		
+	</table>					
+
+				</div>
+				<!-- 外网访问地址 -->
+				<div id="app1" class="app animated fadeInRight">
+	<table class="table table-striped table-bordered table-hover active" >		
+		<thead>
+			<tr class="active center">
+       <td width="10%" align="center" id="fenlei">屋企外网</td>
+        <td width="9%" align="center"><a href="http://wasd217.f3322.net:8088/cgi-bin/webui/admin" target="_blank"id="lianjie">D3-605路由</a></td>
+        <td width="9%" align="center"><a href="http://wasd215.f3322.net:8088/cgi-bin/webui" target="_blank"id="lianjie">C3-401路由</a></td>
+        <td width="9%" align="center"><a href="http://wasd217.f3322.net:5000/" target="_blank"id="lianjie1">家黑群晖</a></td>
+        <td width="9%" align="center"><a href="http://wasd217.f3322.net:5000/index.cgi?launchApp=SYNO.SDS.DownloadStation.Application" target="_blank"id="lianjie1">DiskStation</a></td>
+         <td width="9%" align="center"><a href="http://ariang.ghostry.cn/#!/downloading" target="_blank"id="lianjie">AriaNg</a></td>
+         <td width="9%" align="center"><a href="http://wasd217.f3322.net:9999/#/" target="_blank"id="lianjie">百度web</a></td>
+         <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+         <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+         <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+         <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+        	<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">公司外网</td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:2153/login#/login" target="_blank"  id="lianjie">远程爱快</a></td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:7216/" target="_blank" id="lianjie">远程群晖</a></td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:2158/oa/" target="_blank"  id="lianjie">远程OA</a></td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:7216/" target="_blank" id="lianjie">远程黑群晖</a></td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:8937/power2000/" target="_blank" id="lianjie">远程龙特</a></td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:2160/" target="_blank" id="lianjie">远程传真</a></td>
+       <td width="9%" align="center"><a href="http://honway.f3322.net:2154/" target="_blank" id="lianjie">远程监控</a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td> 
+			</tr>
+		</tbody>
+      </tr>
+		</thead>		
+	</table>					
+
+
+</div>
+
+
+<div class="container">
+	<table width="100%" class="table table-responsive  table-striped table-bordered table-hover acitve " >
+				<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">常用网站</td>
+       <td width="9%" align="center"><a href="https://bh.sb/" target="_blank"  id="lianjie">博海拾贝</a></td>
+       <td width="9%" align="center"><a href="http://www.guokr.com/" target="_blank"  id="lianjie">果壳网</a></td>
+       <td width="9%" align="center"><a href="http://top.baidu.com/" target="_blank"  id="lianjie">百度风云</a></td>
+       <td width="9%" align="center"><a href="https://www.autohome.com.cn/guangzhou/" target="_blank"  id="lianjie">汽车之家</a></td>     
+       <td width="9%" align="center"><a href="http://money08.feidee.com/money/tally/new.do" target="_blank" id="lianjie1">随手记</a></td>
+       <td width="9%" align="center"><a href="https://dida365.com/#q/all/tasks" target="_blank"  id="lianjie1">滴答清单</a></td>
+       <td width="9%" align="center"><a href="http://www.gebi1.com/forum.php?mod=forumdisplay&fid=44&filter=lastpost&orderby=lastpost" target="_blank" id="lianjie">隔壁网</a></td>
+       <td width="9%" align="center"><a href="http://bbs.pcbeta.com/forum-win10-1.html" target="_blank" id="lianjie">远景论坛 </a></td>
+       <td width="9%" align="center"><a href="http://bbs.ikuai8.com/forum.php" target="_blank" id="lianjie">爱快论坛</a></td>
+      <td width="10%" align="center"><a href="http://club.autohome.com.cn/bbs/forum-c-3460-1.html?orderby=dateline&qaType=-1" target="_blank" id="lianjie">缤智论坛</a></td>
+			</tr>
+		</tbody>
+		<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">公司网站</td>
+       <td width="9%" align="center"><a href="http://www.honway.com.cn/" target="_blank"  id="lianjie">鸿葳网站</a></td>
+       <td width="9%" align="center"><a href="http://www.etsingplating.com.cn/" target="_blank" id="lianjie">二轻网站</a></td>
+       <td width="9%" align="center"><a href="http://www.honway.com.cn/4Fz2QjqQtB/" target="_blank"  id="lianjie">鸿葳后台</a></td>
+       <td width="9%" align="center"><a href="http://www.etsingplating.com.cn/EX4GnShO6/index.php" target="_blank" id="lianjie">二轻后台</a></td>
+       <td width="9%" align="center"><a href="http://mail.honway.com.cn/" target="_blank" id="lianjie">鸿葳邮箱 </a></td>
+       <td width="9%" align="center"><a href="http://mail.etsingplating.com.cn/" target="_blank" id="lianjie">二轻邮箱</a></td>
+       <td width="9%" align="center"><a href="http://www.sfceo.net/" target="_blank" id="lianjie">镀涂在线</a></td>
+       <td width="9%" align="center"><a href="http://www.plating.org/" target="_blank" id="lianjie">电镀与涂饰</a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr style="background: rgba(45, 43, 43, 0.43);" >
+	       <td width="10%" align="center" id="fenlei" >官方网站</td>
+         <td width="9%" align="center"><a href="http://www.12306.cn/" target="_blank" id="lianjie">12306</a></td>
+         <td width="9%" align="center"><a href="http://gd.10086.cn/" target="_blank" id="lianjie">广东移动</a></td>
+         <td width="9%" align="center"><a href="http://gd.189.cn/" target="_blank" id="lianjie">广东电信</a></td>
+         <td width="9%" align="center"><a href="https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp" target="_blank" id="lianjie">中国建设</a></td>
+
+         <td width="9%" align="center"><a href="http://www.gzjd.gov.cn/cgs/html/hall/" target="_blank" id="lianjie1">网上车管所</a></td>
+         <td width="9%" align="center"><a href="http://www.sinopecsales.com/" target="_blank" id="lianjie1">中国石化</a></td>
+         <td width="9%" align="center"><a href="http://www.96533.com/" target="_blank" id="lianjie">粤通卡</a></td>
+         <td width="9%" align="center"><a href="https://sso.txffp.com/sso/app/oauth/login?client_id=000031&response_type=code&redirect_uri=https://pss.txffp.com/pss/app/oauth/login&scope=USERINFO&state=state" target="_blank" id="lianjie">粤通发票</a></td>
+         <td width="9%" align="center"><a href="https://gzyzb.wxhxp.cn:5500/" target="_blank" id="lianjie1">易制爆</a></td>
+         <td width="9%" align="center"><a href="https://gzyzd.wxhxp.cn:9100/" target="_blank" id="lianjie">易制毒</a></td>
+</td></a>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr style="background: rgba(45, 43, 43, 0.43);" >
+         <td width="10%" align="center" id="fenlei">影音视频</td>
+         <td width="9%" align="center"><a href="http://www.zimuzu.tv/" target="_blank"  id="lianjie">Zimuzu</a></td>
+         <td width="9%" align="center"><a href="https://www.iqiyi.com/" target="_blank"  id="lianjie">爱奇艺</a></td>
+         <td width="9%" align="center"><a href="http://www.youku.com/" target="_blank" id="lianjie">优酷</a></td>      
+         <td width="9%" align="center"><a href="http://www.acfun.cn" target="_blank" id="lianjie1">Acfun</a></td>
+         <td width="9%" align="center"><a href="http://www.bilibili.com/" target="_blank" id="lianjie1">BiliBili</a></td>
+         <td width="9%" align="center"><a href="http://www.gaoqingkong.com/" target="_blank" id="lianjie1">高清控联盟</a></td>
+         <td width="9%" align="center"><a href="http://gaoqing.la/" target="_blank" id="lianjie">中国高清网</a></td>
+         <td width="9%" align="center"><a href="http://cmct.tv/forum-10-1.html" target="_blank" id="lianjie">CMCT字幕</a></td>
+         <td width="9%" align="center"><a href="https://share.dmhy.org/topics/list?keyword=%E6%B5%B7%E8%B4%BC%E7%8E%8B" target="_blank" id="lianjie">动漫花园</a></td>    
+         <td width="9%" align="center"><a href="https://www.youtube.com/" target="_blank" id="lianjie">Youtube</a></td>   
+			</tr>
+		</tbody>
+		<tbody>
+			<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">网购专区</td>
+       <td width="9%" align="center"><a href="https://www.taobao.com/" target="_blank" id="lianjie1">淘宝</a></td>
+       <td width="9%" align="center"><a href="https://www.alipay.com/" target="_blank" id="lianjie">支付宝</a></td>
+       <td width="9%" align="center"><a href="https://www.1688.com/" target="_blank" id="lianjie1">阿里巴巴</a></td>
+       <td width="9%" align="center"><a href="http://www.jd.com/" target="_blank" id="lianjie1">京东</a></td>
+       <td width="9%" align="center"><a href="http://www.yhd.com/" target="_blank" id="lianjie">1号店</a></td>
+       <td width="9%" align="center"><a href="http://www.amazon.cn/" target="_blank" id="lianjie">亚马逊</a></td>
+       <td width="9%" align="center"><a href="http://58.com" target="_blank" id="lianjie">58同城</a></td>
+       <td width="9%" align="center"><a href="http://www.zgwgfw.com/index.php" target="_blank" id="lianjie">网购返利</a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+   </tr>
+	</tbody>
+	
+	<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">电脑游戏</td>
+       <td width="9%" align="center"><a href="http://www.cfan.com.cn/" target="_blank"  id="lianjie">电脑爱好者</a></td>
+       <td width="9%" align="center"><a href="http://www.leiphone.com/" target="_blank"  id="lianjie">雷锋网</a></td>
+       <td width="9%" align="center"><a href="http://www.pconline.com.cn/" target="_blank" id="lianjie">太平洋电脑</a></td>
+       <td width="9%" align="center"><a href="http://www.zol.com.cn" target="_blank" id="lianjie">中关村</a></td>
+       <td width="9%" align="center"><a href="http://www.gamersky.com/" target="_blank" id="lianjie1">游民星空</a></td>
+       <td width="9%" align="center"><a href="http://www.3dmgame.com/" target="_blank" id="lianjie">3DM</a></td>
+       <td width="9%" align="center"><a href="http://www.5eplay.com/game/cs" target="_blank" id="lianjie">5eplay</a></td>
+       <td width="9%" align="center"><a href="https://github.com/wasd215" target="_blank" id="lianjie">Github</a></td>
+       <td width="9%" align="center"><a href="https://gitee.com/wasd215" target="_blank" id="lianjie">码云</a></td>
+       <td width="9%" align="center"><a href="https://bwh1.net/clientarea.php?action=products" target="_blank" id="lianjie">搬瓦工</a></td>
+		</tr>
+	</tbody>	
+		
+	<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">绿色软件</td>
+       <td width="9%" align="center"><a href=" http://www.52pojie.cn/forum.php?fid=2&filter=author&mod=forumdisplay&orderby=dateline&orderby=dateline&page=1" target="_blank"  id="lianjie">吾爱破解</a></td>
+       <td width="9%" align="center"><a href="https://sspai.com/" target="_blank" id="lianjie">少数派</a></td>
+       <td width="9%" align="center"><a href="http://www.apprcn.com/" target="_blank"  id="lianjie">反斗软件</a></td>
+       <td width="9%" align="center"><a href="http://www.iplaysoft.com/" target="_blank" id="lianjie1">异次元软件</a></td>
+       <td width="9%" align="center"><a href="http://www.zdfans.com/" target="_blank" id="lianjie">Zd423</a></td>
+       <td width="9%" align="center"><a href="http://www.ccav1.com" target="_blank" id="lianjie">CCAV1</a></td>
+       <td width="9%" align="center"><a href="http://www.appinn.com/" target="_blank" id="lianjie">小众软件 </a></td>
+       <td width="9%" align="center"><a href="http://bbs.kafan.cn/forum.php?mod=forumdisplay&fid=65&page=1&filter=author&orderby=dateline" target="_blank" id="lianjie">卡饭软件</a></td>
+       <td width="9%" align="center"><a href="http://www.repaik.com/forum.php?mod=forumdisplay&fid=68&filter=author&orderby=dateline" target="_blank" id="lianjie">睿派克技术</a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+			</tr>
+		</tbody>
+			<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">Chrome</td>
+       <td width="9%" align="center"><a href="https://greasyfork.org/zh-CN" target="_blank"  id="lianjie">GreasyFork</a></td>
+       <td width="9%" align="center"><a href="http://tieba.baidu.com/f?kw=chrome&fr=ala0&tpl=5" target="_blank" id="lianjie">Chrome贴吧</a></td>
+       <td width="9%" align="center"><a href="http://bbs.kafan.cn/forum.php?mod=forumdisplay&fid=214&filter=lastpost&orderby=lastpost" target="_blank"  id="lianjie">卡饭论坛</a></td>
+       <td width="9%" align="center"><a href="http://userscripts-mirror.org/" target="_blank" id="lianjie">Userscripts</a></td>
+       <td width="9%" align="center"><a href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN" target="_blank" id="lianjie">网上应用店 </a></td>
+       <td width="9%" align="center"><a href="http://www.cnplugins.com/" target="_blank" id="lianjie">插件网</a></td>
+       <td width="9%" align="center"><a href="http://chromecj.com/" target="_blank" id="lianjie">Chrome插件</a></td>
+       <td width="9%" align="center"><a href="https://userstyles.org/" target="_blank" id="lianjie">Stylish样式</a></td>
+       <td width="9%" align="center"><a href="http://www.centbrowser.cn/" target="_blank" id="lianjie">百分浏览器</a></td>
+       <td width="9%" align="center"><a href=" " target="_blank" id="lianjie"> </a></td>
+			</tr>
+		</tbody>
+			<tbody>
+		<tr style="background: rgba(45, 43, 43, 0.43);" >
+       <td width="10%" align="center" id="fenlei">实用网站</td>
+       <td width="9%" align="center"><a href="http://www.ip138.com/" target="_blank" id="lianjie">IP查询</a></td>
+       <td width="9%" align="center"><a href="http://www.virscan.org/" target="_blank"  id="lianjie">Virscan</a></td>
+       <td width="9%" align="center"><a href="http://fanyi.youdao.com/" target="_blank" id="lianjie1">有道翻译</a></td>
+       <td width="9%" align="center"><a href="https://smallpdf.com/cn" target="_blank" id="lianjie">Smallpdf</a></td>
+       <td width="9%" align="center"><a href="http://hl.anseo.cn/" target="_blank"  id="lianjie">实时汇率</a></td>
+       <td width="9%" align="center"><a href="http://tool.oschina.net/" target="_blank" id="lianjie">站长在线</a></td>
+       <td width="9%" align="center"><a href="http://www.kuaidi100.com/" target="_blank" id="lianjie1">快递100 </a></td>
+       <td width="9%" align="center"><a href="http://hao.uisdc.com/" target="_blank" id="lianjie">设计师导航</a></td>
+       <td width="9%" align="center"><a href="http://ilxdh.com/" target="_blank" id="lianjie">龙轩导航</a></td>
+       <td width="9%" align="center"><a href="https://www.24kdh.com/" target="_blank" id="lianjie">24K导航</a></td>
+			</tr>
+		</tbody>
+</table>
+	
+
+
+
+<!--
+	作者：i@zhangxingqiu.cn
+	时间：2016-10-20
+	描述：搜索完整代码
+-->
+
+
+<script charset="gbk" src="./js/baidu.js"></script>
+  
+   
+  <script>
+    var sAddress=document.getElementsByTagName("form")[0];
+    var sInfor=document.getElementById("search");
+    var sBaidu=document.getElementById("baidu");
+    var sGoogle=document.getElementById("google");
+    var sjd=document.getElementById("jd");
+    var staobao=document.getElementById("taobao");
+    var sditu=document.getElementById("ditu");
+    var squzhuanpan=document.getElementById("quzhuanpan");
+    var sziyuan=document.getElementById("ziyuan");
+    var szimu=document.getElementById("zimu");   
+    var s1688=document.getElementById("1688");   
+    var stupian=document.getElementById("tupian");   
+    var shyw=document.getElementById("hyw");
+    var shyw=document.getElementById("iqiyi"); 
+//图片
+
+
+    //百度
+    sBaidu.onclick=function(){
+      sAddress.action="https://www.baidu.com/s";
+      sInfor.name="wd";
+    }
+    //Google
+    sGoogle.onclick=function(){
+      sAddress.action="http://www.google.com/search";
+      sInfor.name="q";
+    };
+
+
+//图片
+ $('#tupian').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("http://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1412225176199_R&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&word=" + query + "", "_blank");
+        return false;
+      
+      };
+    });
+    
+    
+//爱奇艺
+
+$('#iqiyi').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://so.iqiyi.com/so/q_" + query + "?source=history&sr=1387213268313", "_blank");
+        return false;
+      
+      };
+    });
+
+    
+
+//1688
+
+$('#1688').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://s.1688.com/selloffer/offer_search.htm?keywords=" + query + "&enc=utf-8", "_blank");
+        return false;
+      
+      };
+    });
+
+
+// 化源网
+
+ $('#hyw').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://www.chemsrc.com/searchResult/" + query + "/", "_blank");
+        return false;
+      
+      };
+    });
+
+// sub字幕
+
+ $('#zimu').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("http://subhd.com/search0/" + query + "", "_blank");
+        return false;
+      
+      };
+    });
+    
+    
+
+    
+    
+    //京东（已修复）在移动端访问会跳出两次窗口（已修复）
+   
+    $('#jd').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("http://search.jd.com/Search?keyword=" + query + "&enc=utf-8", "_blank");
+        return false;
+      };
+    });
+
+
+    
+    //淘宝
+ $('#taobao').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("https://s.taobao.com/search?q=" + query , "_blank");
+        return false;
+      
+      };
+    });
+    
+
+  
+
+
+
+// 20180425 更换网盘检索入口，采用网友推荐的58网盘搜索
+
+ $('#quzhuanpan').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("http://www.58wangpan.com/search/kw" + query + "", "_blank");
+        return false;
+      
+      };
+    });
+
+
+
+
+
+    //新增疯狂影视搜索入口
+  
+$('#ziyuan').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("http://ifkdy.com/?q=" + query + "&p=1", "_blank");
+        return false;
+      
+      };
+    });
+
+
+
+
+// 地图搜索
+
+ $('#ditu').click(function() {
+      var query = $('#search').val();
+      if ( query ) {
+        window.open("http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D" + query + " ", "_blank");
+        return false;
+      
+      };
+    });
+
+
+</script>
+
+ 
+
+</html>

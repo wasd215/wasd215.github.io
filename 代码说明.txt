@@ -1,0 +1,80 @@
+表格行高
+.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th {
+	padding:3px;
+	
+	
+搜索按钮背景颜色	
+	.btn-primary {
+	color:#fff;
+	background-color:#5cb85c;
+	border-color:#4cae4c
+}
+
+
+
+表格背景颜色
+.table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+表格竖边框
+.table-bordered>tbody>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>thead>tr>th {
+	border:1px solid #ddd
+
+表格竖横边框
+.table>tbody+tbody {
+	border-top:0px solid #ddd
+
+
+
+搜索框背景颜色
+.form-control {
+	display: block;
+	width: 100%;
+	height: 43px;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.45;
+	color: #000000;
+	vertical-align: middle;
+	/*background-color: #fff;*/
+	background-color: rgba(152,251,152);
+	background-image: none;
+	
+	搜索字样
+.input-group-addon:first-child {
+	border-right:0;
+  background: #317ef3
+
+
+
+内外网切换表格高度
+	}#main{
+    padding-top: 0px;
+    margin-top: -293px;
+	
+	
+		网页滚动条
+	background-attachment:fixed;overflow:scroll
+	
+	
+	表格英文换行
+	.table {
+	word-break:break-all;
+	word-wrap:break-word;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	链接效果
+	a:focus,a:hover {
+	color:#23527c;
+	text-decoration:underline;
+	
+}
+	
