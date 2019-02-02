@@ -28,7 +28,11 @@
 表格竖横边框
 .table>tbody+tbody {
 	border-top:0px solid #ddd
-
+	
+内外网表格边框
+.table-bordered>thead>tr>td,.table-bordered>thead>tr>th {
+	border-bottom-width:0px
+}
 
 
 搜索框背景颜色
